@@ -1,0 +1,17 @@
+body{
+    color: white;
+}
+
+.list-element{
+    background-color: rgb(102, 102, 102);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.no-padding{
+    padding: 0px;
+}
+
+#artist-container{
+    background-color: rgb(167, 167, 167);
+}
