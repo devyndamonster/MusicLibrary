@@ -1,16 +1,24 @@
 
+
+var apiURL = "https://musiclibraryapi.azurewebsites.net";
+
 function PopulateArtistContainer(){
-    console.log("Hello!");
 
-    var artist_container = document.getElementById("artist-container");
+    var url = apiURL + "/musicapi/search/artists?startIndex=0&count=10"
+    console.log("Seding request for artists");
 
-    artist_container.innerHTML = "";
+    $.get(url, function(data, status){
 
-    for(let i = 0; i < 10; i++){
-        artist_container.innerHTML += "<div class=\"list-element\">Artist Item</div>";
-    }
+        console.log(data);
 
+        var artist_container = document.getElementById("artist-container");
+        artist_container.innerHTML = "";
     
+        for(let i = 0; i < 10; i++){
+            artist_container.innerHTML += "<div class=\"list-element\">" + data[i].artistName + "</div>";
+        }
+
+    });
 }
 
 
