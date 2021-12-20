@@ -25,6 +25,6 @@ function PopulateArtistContainer(){
 
 document.addEventListener("DOMContentLoaded", function(){
 
-    PopulateArtistContainer();
+    //PopulateArtistContainer();
   
 });
