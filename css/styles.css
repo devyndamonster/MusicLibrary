@@ -14,5 +14,20 @@ body{
 }
 
 #left-panel{
-    width: 300px;
+    flex: 0 0 300px;
+}
+
+@media screen and (max-width: 1100px){
+    #left-panel{
+        flex: 1 0 300px;
+    }
+}
+
+#mid-panel{
+    flex: 1 0 800px;
+}
+
+.root-container{
+    display: flex;
+    flex-wrap: wrap;
 }
