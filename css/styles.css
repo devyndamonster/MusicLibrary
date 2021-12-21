@@ -66,3 +66,20 @@ body{
 #col-title-container{
     display: flex;
 }
+
+.artist-element-container{
+    display: flex;
+}
+
+.follow-button{
+    border: 0px;
+    color: white;
+}
+
+.follow-button:hover{
+    background-color: rgb(255, 152, 152);
+}
+
+.follow-button:active{
+    background-color: rgb(255, 183, 183);
+}

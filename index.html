@@ -19,7 +19,11 @@
 
       <div class="no-padding bg-dark" id="left-panel">
         <div id="library-container">
-          <div class="list-element">Library Item</div>
+          <div class="list-element" id="user-title">Library</div>
+          <button class="list-element list-button" id="discover-button">Discover Artists</button>
+          <button class="list-element list-button" id="liked-artist-button">Liked Artists</button>
+          <button class="list-element list-button" id="liked-album-button">Liked Albums</button>
+          <button class="list-element list-button" id="liked-song-button">Liked Songs</button>
         </div>
       </div>
   
@@ -29,37 +33,21 @@
         </div>
 
         <div id="col-title-container">
-          <div class="col-title-text col-4">Artist Name</div>
-          <div class="col-title-text col-4">Hello</div>
-          <div class="col-title-text col-4">Hello</div>
+          <div class="col-title-text col-4" id="first-col-title">Artist Name</div>
+          <div class="col-title-text col-4" id="second-col-title">Hello</div>
+          <div class="col-title-text col-4" id="third-col-title">Hello</div>
         </div>
 
         <div id="artist-container">
-          <button class="list-element list-button">
-            <div class="list-button-text col-4">Hello</div>
-            <div class="list-button-text col-4">Hello Again</div>
-            <div class="list-button-text col-4">Hi</div>
-          </button>
-          <button class="list-element list-button">
-            <div class="list-button-text col-4">Hello</div>
-            <div class="list-button-text col-4">Hello Again</div>
-            <div class="list-button-text col-4">Hi</div>
-          </button>
-          <button class="list-element list-button">
-            <div class="list-button-text col-4">Hello</div>
-            <div class="list-button-text col-4">Hello Again</div>
-            <div class="list-button-text col-4">Hi</div>
-          </button>
-          <button class="list-element list-button">
-            <div class="list-button-text col-4">Hello</div>
-            <div class="list-button-text col-4">Hello Again</div>
-            <div class="list-button-text col-4">Hi</div>
-          </button>
-          <button class="list-element list-button">
-            <div class="list-button-text col-4">Hello</div>
-            <div class="list-button-text col-4">Hello Again</div>
-            <div class="list-button-text col-4">Hi</div>
-          </button>
+          <div class="artist-element-container">
+            <button class="list-element follow-button">&#9825;</button>
+
+            <button class="list-element list-button">
+              <div class="list-button-text col-4">Loading</div>
+              <div class="list-button-text col-4">Loading</div>
+              <div class="list-button-text col-4">Loading</div>
+            </button>
+          </div>
         </div>
       </div>
 
