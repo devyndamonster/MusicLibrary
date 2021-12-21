@@ -243,7 +243,7 @@ function PopulateLikedArtists(){
 
         console.log(data);
 
-        PopulateContainerTitle("Discover Artists", "Artist Name", "Albums", "Songs");
+        PopulateContainerTitle("Liked Artists", "Artist Name", "Albums", "Songs");
 
         var artist_container = document.getElementById("artist-container");
         artist_container.innerHTML = "";
